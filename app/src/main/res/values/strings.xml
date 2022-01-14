@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TechNetlog</string>
+    <string-array name="menuler_array">
+        <item>Webtekno</item>
+        <item>ShiftDelete</item>
+        <item>aa</item>
+        <item>bb</item>
+        <item>ccc</item>
+        <item>Ayarlar</item>
+        <item>Çıkış</item>
+    </string-array>
+    <string name="title_activity_ana_ekran">TechNetLog</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ayarlar</string>
+</resources>

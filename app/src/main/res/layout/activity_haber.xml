@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    tools:context="com.helloworld.selahattin.helloworld.Haber"
+    android:background="@drawable/standart_gradient">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        >
+
+        <ImageView
+            android:id="@+id/imageHaber"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/border" />
+
+        <TextView
+            android:id="@+id/textBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BAŞLIK"
+            android:textSize="22dp"
+            android:padding="10px"
+            android:textColor="#2d5b9f"
+            android:gravity="fill|end"/>
+
+        <TextView
+            android:id="@+id/textBilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10px"
+            android:text="Gönderen - Okundu"
+            android:textColor="#747474"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOzet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10px"
+            android:text="Özet"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:gravity="left|end"/>
+
+        <Button
+            android:id="@+id/btnHaberiGoruntule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            android:text="Haberin Devamını Oku"
+            android:textColor="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/textBilgi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10px"
+            android:paddingTop="10px"
+            android:text="Kaynak - Eklenme Tarihi"
+            android:textColor="#747474"
+            android:textSize="11dp"
+            android:textStyle="bold" android:textAlignment="center" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

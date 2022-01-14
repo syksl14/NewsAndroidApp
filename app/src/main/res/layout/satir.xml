@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:background="@drawable/iplqemza"
+    android:color="#000000"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:color="#000000"
+        android:padding="30px">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignBottom="@+id/textBaslik"
+                app:srcCompat="@drawable/news" />
+
+            <TextView
+                android:id="@+id/textBaslik"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:paddingTop="0dp"
+                android:text="BASLIK"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="22sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="#000000"
+        android:padding="0px">
+        <TableRow>
+            <TextView
+                android:id="@+id/textBilgi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text="Bilgi"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="13sp" />
+        </TableRow>
+        </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10sp" android:paddingBottom="10sp">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textOzet"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="OZET" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
