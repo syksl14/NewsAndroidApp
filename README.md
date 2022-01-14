@@ -1,5 +1,5 @@
 # NewsAndroidApp
-It brings and lists the news prepared via simple web api.
+It brings and lists the news prepared via simple web api. [Web App and Service]: https://github.com/syksl14/NewsWebApp
 
 ## Project Features
 
